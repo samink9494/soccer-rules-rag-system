@@ -1,0 +1,435 @@
+{
+  "metrics": {
+    "total_questions": 25,
+    "successful_retrievals": 25,
+    "hit_rate": 1.0,
+    "average_latency": 13.550229692459107
+  },
+  "results": [
+    {
+      "question": "How long is a standard soccer match and what is the purpose of stoppage time?",
+      "answer": " A standard soccer match lasts 90 minutes, divided into two halves of 45 minutes each. The purpose of stoppage time (also known as added time or injury time) is to account for interruptions during normal play, such as when the ball goes out of bounds, a player gets injured, or substitutions occur. The referee keeps track of all these interruptions and adds the extra time at the end of each half. The exact length of stoppage time can vary depending on the duration of the delays.",
+      "sources": [
+        "Document 1 - Match Duration and Basic Structure.txt",
+        "Document 1 - Match Duration and Basic Structure.txt",
+        "Document 1 - Match Duration and Basic Structure.txt"
+      ],
+      "contexts": [
+        "Match Duration and Basic Structure\nSoccer is played in two halves, and each half lasts 45 minutes in most standard competitions. Together, the full match is 90 minutes of regular time. After the first 45 minutes, the referee gives a short break called halftime, which usually lasts around 15 minutes. Halftime allows the players to rest, receive instructions from their coaches, and adjust their game plan. The clock in soccer does not stop during normal play. It keeps running even if the ball goes ",
+        "is counted only if the entire ball crosses the goal line between the posts and under the crossbar. Most matches end after the 90 minutes plus stoppage time. However, knockout games such as cup tournaments may go into extra time if the score is tied. Extra time consists of two 15-minute halves. If the tie still remains, the match may be decided through a penalty shootout. These additional stages only apply in competitions where a winner must be declared.\n",
+        "rmal play. It keeps running even if the ball goes out, a player gets injured, or substitutions occur. Instead of pausing the clock, the referee keeps track of all interruptions and adds stoppage time at the end of each half. This extra time can vary depending on how long the delays were.\nA match begins with a kickoff from the center circle. Teams switch sides at halftime. The goal of the game is simple: score more goals than the opponent. A goal is counted only if the entire ball crosses the goa"
+      ],
+      "time": 20.786161184310913,
+      "expected_answer": "A standard soccer match lasts 90 minutes, divided into two 45-minute halves. Stoppage time compensates for interruptions such as injuries, substitutions, and delays.",
+      "category": "factual"
+    },
+    {
+      "question": "What conditions must be met for a player to be offside?",
+      "answer": " A player is considered offside if they are in their opponents' half and closer to the opponents' goal line than both the ball and the second-last defender at the moment a teammate passes the ball to them.",
+      "sources": [
+        "Document 2 - Offside Rule.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt"
+      ],
+      "contexts": [
+        "Offside Rule\nThe offside rule is one of the most misunderstood parts of soccer, especially for beginners. A player is considered offside if they are in the opponents half and closer to the opponents goal line than both the ball and the second-last defender at the moment a teammate passes the ball to them. Being in an offside position by itself is not a foul. The player is only penalized if they are actively involved in the play meaning they receive the ball, interfere with an opponent, or gain a",
+        "on is known as a back-pass violation. If the goalkeeper handles such a pass, the opposing team recei",
+        "on is known as a back-pass violation. If the goalkeeper handles such a pass, the opposing team recei"
+      ],
+      "time": 8.31313705444336,
+      "expected_answer": "A player is offside if they are ahead of both the ball and the second-last defender in the opponents\u2019 half at the moment the ball is played to them.",
+      "category": "factual"
+    },
+    {
+      "question": "Do only players receive yellow or red cards?",
+      "answer": " No, in the context provided, it's stated that both players and team officials (like coaches or staff) can receive yellow or red cards.",
+      "sources": [
+        "Document 6 - Yellow and Red Cards.txt",
+        "Document 6 - Yellow and Red Cards.txt",
+        "Document 6 - Yellow and Red Cards.txt"
+      ],
+      "contexts": [
+        "s the player off the field. The team must continue with one fewer player for the remainder of the game, which creates a major disadvantage. Red cards are issued for serious offenses such as violent conduct, denying a clear goal-scoring opportunity with a foul, using abusive language, or extremely dangerous tackles. In some competitions, a straight red card may result in additional match suspensions.\nReferees also manage team officials on the sidelines. Coaches or staff can receive yellow or red ",
+        "Yellow and Red Cards\nReferees use yellow and red cards to control discipline during a match. A yellow card is a caution given to a player for actions such as reckless tackles, dissent, persistent fouling, delay of game, or unsporting behavior. It signals that the player must be more careful moving forward. If a player receives two yellow cards in the same match, the referee shows a red card, and the player is expelled.\nA red card immediately sends the player off the field. The team must continue",
+        "Yellow and Red Cards\nReferees use yellow and red cards to control discipline during a match. A yellow card is a caution given to a player for actions such as reckless tackles, dissent, persistent foul"
+      ],
+      "time": 9.01425576210022,
+      "expected_answer": "No, in addition to players, team officials such as coaches or staff can also receive yellow or red cards for inappropriate behavior during a match.",
+      "category": "factual"
+    },
+    {
+      "question": "How many substitutions are typically allowed in a match?",
+      "answer": " In most cases, three to five substitutions are typically allowed during a soccer match. The exact number can vary depending on the competition.",
+      "sources": [
+        "Document 8 - Substitutions and Player Roles.txt",
+        "Document 8 - Substitutions and Player Roles.txt",
+        "Document 8 - Substitutions and Player Roles.txt"
+      ],
+      "contexts": [
+        "Substitutions and Player Roles\nMost soccer matches allow a set number of substitutions, although the exact limit depends on the competition. In many leagues, teams may use three to five substitutes during a match. A substitution occurs when a player leaves the field and another player replaces them. The referee must be notified before the change, and the substitute can only enter after the departing player steps completely off the field. Substitutions typically occur during stoppages but may als",
+        " five substitutes during a match. A substitution occurs when a player leaves the field and another p",
+        " five substitutes during a match. A substitution occurs when a player leaves the field and another p"
+      ],
+      "time": 6.016814947128296,
+      "expected_answer": "Most competitions allow three to five substitutions depending on the league or tournament rules.",
+      "category": "factual_basic"
+    },
+    {
+      "question": "Why is receiving a red card early in the match a major disadvantage for a team?",
+      "answer": " Receiving a red card early in the match is a major disadvantage for a team because they must continue with one fewer player for the remainder of the game. This numerical deficit significantly impacts the team's ability to compete effectively, as it reduces their options on the field and potentially weakens their defensive or offensive capabilities.",
+      "sources": [
+        "Document 6 - Yellow and Red Cards.txt",
+        "Document 6 - Yellow and Red Cards.txt",
+        "Document 6 - Yellow and Red Cards.txt"
+      ],
+      "contexts": [
+        " of the game, which creates a major disadvantage. Red cards are issued for serious offenses such as ",
+        "s the player off the field. The team must continue with one fewer player for the remainder of the game, which creates a major disadvantage. Red cards are issued for serious offenses such as violent conduct, denying a clear goal-scoring opportunity with a foul, using abusive language, or extremely dangerous tackles. In some competitions, a straight red card may result in additional match suspensions.\nReferees also manage team officials on the sidelines. Coaches or staff can receive yellow or red ",
+        "s the player off the field. The team must continue with one fewer player for the remainder of the game, which creates a major disadvantage. Red cards are issued for serious offenses such as violent co"
+      ],
+      "time": 12.887992143630981,
+      "expected_answer": "A red card forces a team to continue with one fewer player, reducing defensive stability and limiting attacking opportunities for the rest of the match.",
+      "category": "inferential"
+    },
+    {
+      "question": "If a defender commits a careless foul outside the box, what restart is awarded and why?",
+      "answer": " The restart awarded for a careless foul committed by a defender outside the box is a direct free kick. This is because a direct free kick allows the opposing team to attempt to score directly from the kick without needing an advantage or any other specific conditions to be met, given that the foul occurred outside the penalty area.",
+      "sources": [
+        "Document 10 - Restarts, Drop Balls, and Advantage Rule.txt",
+        "Document 10 - Restarts, Drop Balls, and Advantage Rule.txt",
+        "Document 3 - Fouls and Misconduct.txt"
+      ],
+      "contexts": [
+        "and rewards attacking momentum. If the advantage does not materialize within a few seconds, the referee may bring play back to the original foul location.\nOther restarts include free kicks, corner kicks, throw-ins, and goal kicks, each with specific procedures. The referees role is to ensure restarts are taken correctly, opponents give the required distance, and no player gains an unfair advantage. Understanding restarts helps teams react quickly and stay organized during transitions. Good aware",
+        "Restarts, Drop Balls, and Advantage Rule\nWhen play stops for an injury, accidental obstruction, or other non-foul situations, the referee uses a drop ball to restart the match. In a drop ball, the referee releases the ball to the ground at a specific spot, and the nearest player takes possession. In modern rules, drop balls are often uncontested to avoid clashes or confusion. If the ball hits the referee during active play and leads to a change in possession or creates a scoring chance, the matc",
+        "Fouls and Misconduct\nFouls occur when a player commits an action that is considered careless, reckless, or excessively forceful against an opponent. Common fouls include tripping, pushing, kicking, charging, or striking another player. Some fouls happen during attempts to win the ball, while others occur when players behave aggressively or lose control of their movements. If a foul is committed and the opposing team had clear possession or an advantage, the referee may allow play to continue, bu"
+      ],
+      "time": 19.3257794380188,
+      "expected_answer": "A direct free kick is awarded because the foul occurred outside the penalty area and was judged careless, giving the attacking team a chance to restart play.",
+      "category": "inferential"
+    },
+    {
+      "question": "Why might a team choose to commit a tactical foul?",
+      "answer": " A team might choose to commit a tactical foul as a last resort when they are losing control of the game or facing a significant deficit. By deliberately fouling an opponent, they can halt the opposition's momentum and give their own team a moment to regroup or reorganize defensively. However, this strategy comes with risks, including receiving a yellow card, which could lead to a suspension if accumulated, and potentially damaging the team's reputation for good sportsmanship.",
+      "sources": [
+        "Document 3 - Fouls and Misconduct.txt",
+        "Document 3 - Fouls and Misconduct.txt",
+        "Document 4 - Free Kicks and Penalty Kicks.txt"
+      ],
+      "contexts": [
+        " decisions help maintain safety and fairness during the match. Teams with players who foul excessively may lose control of the game and struggle to maintain possession. Understanding what constitutes a foul helps players avoid unnecessary stoppages and maintain good sportsmanship.\n",
+        " decisions help maintain safety and fairness during the match. Teams with players who foul excessively may lose control of the game and struggle to maintain possession. Understanding what constitutes ",
+        " penalty area. This gives the attacking team a major scoring opportunity. The ball is placed on the penalty spot, and only the goalkeeper is allowed to defend the shot. All other players must stay outside the box, the penalty arc, and behind the penalty spot until the ball is kicked. Once the shooter strikes the ball, it is in play, and teammates may follow up for rebounds if the ball remains on the field. Penalty kicks often decide close matches, especially in tournaments.\n"
+      ],
+      "time": 16.12156581878662,
+      "expected_answer": "Teams commit tactical fouls to stop counterattacks, break the opponent\u2019s momentum, or regain defensive shape when vulnerable.",
+      "category": "inferential"
+    },
+    {
+      "question": "How does a referee keep control of the game?",
+      "answer": " A referee keeps control of the game by enforcing rules regarding fouls to maintain safety and fairness, managing various restarts such as free kicks, corner kicks, throw-ins, and goal kicks, ensuring correct procedures are followed, maintaining distance between opponents, and preventing any player from gaining an unfair advantage. Understanding what constitutes a foul and the procedures for each restart helps teams remain organized during transitions and maintain good sportsmanship.",
+      "sources": [
+        "Document 3 - Fouls and Misconduct.txt",
+        "Document 3 - Fouls and Misconduct.txt",
+        "Document 10 - Restarts, Drop Balls, and Advantage Rule.txt"
+      ],
+      "contexts": [
+        " decisions help maintain safety and fairness during the match. Teams with players who foul excessively may lose control of the game and struggle to maintain possession. Understanding what constitutes a foul helps players avoid unnecessary stoppages and maintain good sportsmanship.\n",
+        " decisions help maintain safety and fairness during the match. Teams with players who foul excessively may lose control of the game and struggle to maintain possession. Understanding what constitutes ",
+        "and rewards attacking momentum. If the advantage does not materialize within a few seconds, the referee may bring play back to the original foul location.\nOther restarts include free kicks, corner kicks, throw-ins, and goal kicks, each with specific procedures. The referees role is to ensure restarts are taken correctly, opponents give the required distance, and no player gains an unfair advantage. Understanding restarts helps teams react quickly and stay organized during transitions. Good aware"
+      ],
+      "time": 21.287288188934326,
+      "expected_answer": "Referees maintain control by enforcing the rules, issuing cautions or cards when needed, using clear communication, and managing player behavior.",
+      "category": "deep_knowledge"
+    },
+    {
+      "question": "What usually happens if a team keeps committing minor fouls?",
+      "answer": " If a team keeps committing minor fouls, the opposing team may gain clear possession or an advantage due to the referee's decisions allowing play to continue. This can potentially result in the fouling team losing control of the game and struggling to maintain possession.",
+      "sources": [
+        "Document 3 - Fouls and Misconduct.txt",
+        "Document 3 - Fouls and Misconduct.txt",
+        "Document 3 - Fouls and Misconduct.txt"
+      ],
+      "contexts": [
+        "Fouls and Misconduct\nFouls occur when a player commits an action that is considered careless, reckless, or excessively forceful against an opponent. Common fouls include tripping, pushing, kicking, charging, or striking another player. Some fouls happen during attempts to win the ball, while others occur when players behave aggressively or lose control of their movements. If a foul is committed and the opposing team had clear possession or an advantage, the referee may allow play to continue, bu",
+        " decisions help maintain safety and fairness during the match. Teams with players who foul excessively may lose control of the game and struggle to maintain possession. Understanding what constitutes ",
+        " decisions help maintain safety and fairness during the match. Teams with players who foul excessively may lose control of the game and struggle to maintain possession. Understanding what constitutes a foul helps players avoid unnecessary stoppages and maintain good sportsmanship.\n"
+      ],
+      "time": 11.347188234329224,
+      "expected_answer": "Repeated minor fouls often lead to warnings, yellow cards, or loss of match control for the offending team.",
+      "category": "deep_knowledge"
+    },
+    {
+      "question": "What is Cristiano Ronaldo\u2019s favorite food?",
+      "answer": " The context provided does not contain information about Cristiano Ronaldo's favorite food.",
+      "sources": [
+        "Document 5 - Throw-Ins, Goal Kicks, and Corner Kicks.txt",
+        "Document 8 - Substitutions and Player Roles.txt",
+        "Document 9 - Field Layout and Equipment Requirements.txt"
+      ],
+      "contexts": [
+        "he ball before it crosses their own goal line. The ball is placed in the nearest corner arc, and an attacking player kicks it back into play. Corner kicks are strong scoring opportunities because many",
+        "and protecting the goal. They include center backs, fullbacks, and wing-backs. Midfielders link the defense and the attack, controlling possession and distributing passes. Some midfielders specialize ",
+        "cidental contact. Goalkeepers wear a different-colored jersey to distinguish them from other players"
+      ],
+      "time": 4.848799228668213,
+      "expected_answer": "The documents do not contain information about Cristiano Ronaldo\u2019s favorite food.",
+      "category": "funny"
+    },
+    {
+      "question": "Can a goalkeeper drink tea during the match while waiting for the ball?",
+      "answer": " The context provided does not mention anything about a goalkeeper drinking tea during the match, so we cannot confirm or deny whether it is allowed. The rules regarding drinks typically fall under the category of equipment and substitutions, rather than play on the field. It's best to refer to the specific soccer (football) rules or consult with your local league for the most accurate information.",
+      "sources": [
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt"
+      ],
+      "contexts": [
+        " catch the ball during active play. However, certain limitations apply. A goalkeeper cannot pick up ",
+        " catch the ball during active play. However, certain limitations apply. A goalkeeper cannot pick up ",
+        "team receives an indirect free kick inside the penalty area.\nGoalkeepers must also release the ball within a reasonable amount of time, usually around six seconds. Holding the ball too long leads to an indirect free kick for the other team. When catching high balls or attempting punches during set pieces, goalkeepers are protected from unfair physical contact. Opponents cannot charge or block them while they are in the air or attempting to secure the ball.\nOutside the penalty area, a goalkeeper "
+      ],
+      "time": 13.26452898979187,
+      "expected_answer": "The documents do not mention tea drinking, but goalkeepers must stay alert and ready, so it would not be practical.",
+      "category": "funny"
+    },
+    {
+      "question": "If a player celebrates by breakdancing on the field, is it allowed?",
+      "answer": " The context provided does not explicitly state whether breaking dance moves during celebration are allowed or not. However, it emphasizes maintaining safety and fair play in the game. Therefore, it can be assumed that excessive movements that may potentially risk safety or disrupt play might not be encouraged. But without specific rules about celebrations, a definitive answer cannot be given based on the provided context.",
+      "sources": [
+        "Document 9 - Field Layout and Equipment Requirements.txt",
+        "Document 9 - Field Layout and Equipment Requirements.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt"
+      ],
+      "contexts": [
+        " and safe for play. Grass and artificial turf are both acceptable. Corner flags must be placed at ea",
+        " size and weight standards.\nThe field surface should be even and safe for play. Grass and artificial turf are both acceptable. Corner flags must be placed at each corner, and nets should be securely attached to the goal frame. Coaches and substitutes remain in the technical area on the sidelines, while spectators stay behind designated barriers. Maintaining a proper field environment ensures fair play and reduces injury risk for all participants.\n",
+        " in their own penalty area. They are the only player allowed to use their hands to stop or catch the"
+      ],
+      "time": 14.004799365997314,
+      "expected_answer": "The documents do not specifically mention breakdancing, but unsafe or excessive celebrations may lead to a caution.",
+      "category": "funny"
+    },
+    {
+      "question": "What happens if both teams commit fouls at the same time?",
+      "answer": " If both teams commit fouls at the same time, it's referred to as a 'foul incident'. In such cases, the referee has the discretion to decide which team committed the more serious offense and take appropriate action against that team. However, if it is not possible to determine which team is responsible for the foul incident, no action may be taken against either team, but play will usually be stopped and restarted with a free kick or throw-in.",
+      "sources": [
+        "Document 3 - Fouls and Misconduct.txt",
+        "Document 6 - Yellow and Red Cards.txt",
+        "Document 3 - Fouls and Misconduct.txt"
+      ],
+      "contexts": [
+        "Fouls and Misconduct\nFouls occur when a player commits an action that is considered careless, reckless, or excessively forceful against an opponent. Common fouls include tripping, pushing, kicking, charging, or striking another player. Some fouls happen during attempts to win the ball, while others occur when players behave aggressively or lose control of their movements. If a foul is committed and the opposing team had clear possession or an advantage, the referee may allow play to continue, bu",
+        "ay result in additional match suspensions.\nReferees also manage team officials on the sidelines. Coa",
+        " decisions help maintain safety and fairness during the match. Teams with players who foul excessively may lose control of the game and struggle to maintain possession. Understanding what constitutes "
+      ],
+      "time": 13.662646055221558,
+      "expected_answer": "The referee determines which foul occurred first or which offense had greater impact, then restarts play accordingly.",
+      "category": "edge_cases"
+    },
+    {
+      "question": "What happens if a player wears a formal suit during the match?",
+      "answer": " If a player wears a formal suit during the match, it would be considered a breach of uniform regulations. The player might receive a warning or penalty, depending on the rules of the specific sport and the discretion of the referee. However, without more specific context about the sport in question, it's difficult to provide a definitive answer.",
+      "sources": [
+        "Document 9 - Field Layout and Equipment Requirements.txt",
+        "Document 9 - Field Layout and Equipment Requirements.txt",
+        "Document 6 - Yellow and Red Cards.txt"
+      ],
+      "contexts": [
+        "a different-colored jersey to distinguish them from other players. The match ball must meet specific",
+        "rom kicks or accidental contact. Goalkeepers wear a different-colored jersey to distinguish them from other players. The match ball must meet specific size and weight standards.\nThe field surface shou",
+        "tch, the referee shows a red card, and the player is expelled.\nA red card immediately sends the play"
+      ],
+      "time": 26.67983627319336,
+      "expected_answer": "Formal clothing does not meet equipment requirements, so the player would be asked to change before participating.",
+      "category": "edge_cases"
+    },
+    {
+      "question": "What happens if one of the referees gets injured?",
+      "answer": " If one of the referees gets injured, a substitute referee would need to replace them. The change must be notified to the referee, and the substitute can only come onto the field once authorized by the remaining referee(s).",
+      "sources": [
+        "Document 6 - Yellow and Red Cards.txt",
+        "Document 8 - Substitutions and Player Roles.txt",
+        "Document 8 - Substitutions and Player Roles.txt"
+      ],
+      "contexts": [
+        "ay result in additional match suspensions.\nReferees also manage team officials on the sidelines. Coa",
+        " another player replaces them. The referee must be notified before the change, and the substitute ca",
+        " another player replaces them. The referee must be notified before the change, and the substitute ca"
+      ],
+      "time": 9.015128374099731,
+      "expected_answer": "A substitute referee or another official typically replaces the injured referee depending on match regulations.",
+      "category": "edge_cases"
+    },
+    {
+      "question": "Is it legal to score directly from a throw-in?",
+      "answer": " No, it is not legal to score directly from a throw-in in soccer as per the rules given in the context. A direct free kick or penalty must be awarded for any infringement during the throw-in, but the ball cannot enter the goal without these being taken first.",
+      "sources": [
+        "Document 5 - Throw-Ins, Goal Kicks, and Corner Kicks.txt",
+        "Document 5 - Throw-Ins, Goal Kicks, and Corner Kicks.txt",
+        "Document 5 - Throw-Ins, Goal Kicks, and Corner Kicks.txt"
+      ],
+      "contexts": [
+        "ed it is awarded a throw-in. The player taking the throw-in must keep both feet on or behind the line and use both hands to deliver the ball from behind their head. Throw-ins cannot be taken with one ",
+        "Throw-Ins, Goal Kicks, and Corner Kicks\nWhen the ball goes completely out of bounds over the touchline, the opposing team of the last player who touched it is awarded a throw-in. The player taking the throw-in must keep both feet on or behind the line and use both hands to deliver the ball from behind their head. Throw-ins cannot be taken with one hand or thrown like a baseball pitch. They must be executed with proper form, or the referee will award the throw-in to the opposing team.\nA goal kick",
+        "nd their head. Throw-ins cannot be taken with one hand or thrown like a baseball pitch. They must be executed with proper form, or the referee will award the throw-in to the opposing team.\nA goal kick"
+      ],
+      "time": 11.428762912750244,
+      "expected_answer": "No, a goal cannot be scored directly from a throw-in according to the rules.",
+      "category": "edge_cases"
+    },
+    {
+      "question": "Can the goalkeeper receive a red card just for touching the ball?",
+      "answer": " No, a goalkeeper cannot receive a red card just for touching the ball. The rule about a back-pass violation only applies when they handle a deliberately passed back footed pass from their own team. Otherwise, as long as the goalkeeper handles the ball within their penalty area according to the normal rules, there is no violation or potential for a red card.",
+      "sources": [
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt"
+      ],
+      "contexts": [
+        "Goalkeeper Rules and Handling Restrictions\nThe goalkeeper has special privileges, but only in their own penalty area. They are the only player allowed to use their hands to stop or catch the ball during active play. However, certain limitations apply. A goalkeeper cannot pick up the ball if it was deliberately passed to them using a teammates foot. This action is known as a back-pass violation. If the goalkeeper handles such a pass, the opposing team receives an indirect free kick inside the pen",
+        " catch the ball during active play. However, certain limitations apply. A goalkeeper cannot pick up ",
+        " catch the ball during active play. However, certain limitations apply. A goalkeeper cannot pick up "
+      ],
+      "time": 11.426324129104614,
+      "expected_answer": "No, touching the ball alone is not a red card offense; a red card requires a serious violation such as violent conduct.",
+      "category": "edge_cases"
+    },
+    {
+      "question": "Why might a team target the wings instead of the center?",
+      "answer": " In the given context, it doesn't explicitly explain why a team might target the wings instead of the center. However, traditionally, soccer strategies often involve targeting the wings because they provide more space to exploit and offer opportunities for crosses into the penalty area, potentially leading to scoring chances. The center, on the other hand, is usually more crowded due to multiple players from both teams concentrating there. But without additional context about the specific situation or team tactics, it's hard to definitively say why a team would target the wings over the center.",
+      "sources": [
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 4 - Free Kicks and Penalty Kicks.txt"
+      ],
+      "contexts": [
+        "yer. They cannot use their hands and must rely on their feet to play the ball. Many modern goalkeepe",
+        "yer. They cannot use their hands and must rely on their feet to play the ball. Many modern goalkeepe",
+        " penalty area. This gives the attacking team a major scoring opportunity. The ball is placed on the penalty spot, and only the goalkeeper is allowed to defend the shot. All other players must stay out"
+      ],
+      "time": 15.328030586242676,
+      "expected_answer": "The wings often provide more attacking space, fewer defenders, and better opportunities for crossing into the box.",
+      "category": "tactical_strategy"
+    },
+    {
+      "question": "How does a high defensive line affect offside calls?",
+      "answer": " A high defensive line can potentially increase the likelihood of offside calls against the attacking team, as it places the second-last defender closer to the opposing team's half. This means that an attacking player who is further forward than the ball and the second-last defender could be considered offside under the offside rule, especially if they are involved in active play when a teammate passes the ball to them. However, it's important to note that being in an offside position does not automatically result in a foul; only if the player receives the ball, interferes with an opponent, or gains an advantage will an offside call be made.",
+      "sources": [
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 2 - Offside Rule.txt"
+      ],
+      "contexts": [
+        "on is known as a back-pass violation. If the goalkeeper handles such a pass, the opposing team recei",
+        "on is known as a back-pass violation. If the goalkeeper handles such a pass, the opposing team recei",
+        "Offside Rule\nThe offside rule is one of the most misunderstood parts of soccer, especially for beginners. A player is considered offside if they are in the opponents half and closer to the opponents goal line than both the ball and the second-last defender at the moment a teammate passes the ball to them. Being in an offside position by itself is not a foul. The player is only penalized if they are actively involved in the play meaning they receive the ball, interfere with an opponent, or gain a"
+      ],
+      "time": 19.85498046875,
+      "expected_answer": "A high defensive line increases the likelihood of attackers being caught offside because defenders play closer to midfield.",
+      "category": "tactical_strategy"
+    },
+    {
+      "question": "Why might a team commit intentional fouls in midfield?",
+      "answer": " A team might commit intentional fouls in midfield to disrupt the flow of the game, halt the opposition's offensive momentum, or regain possession when they are at a disadvantage. This is often done by deliberately committing a careless or reckless act against an opponent, such as tripping, pushing, or kicking, which are considered common fouls. However, it is important to note that intentionally committing fouls is against the rules and can lead to penalties, like free kicks or even card warnings/ejections for the offending player.",
+      "sources": [
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 3 - Fouls and Misconduct.txt"
+      ],
+      "contexts": [
+        " in their own penalty area. They are the only player allowed to use their hands to stop or catch the",
+        "eliberately passed to them using a teammates foot. This action is known as a back-pass violation. If the goalkeeper handles such a pass, the opposing team receives an indirect free kick inside the pen",
+        "Fouls and Misconduct\nFouls occur when a player commits an action that is considered careless, reckless, or excessively forceful against an opponent. Common fouls include tripping, pushing, kicking, charging, or striking another player. Some fouls happen during attempts to win the ball, while others occur when players behave aggressively or lose control of their movements. If a foul is committed and the opposing team had clear possession or an advantage, the referee may allow play to continue, bu"
+      ],
+      "time": 17.835123538970947,
+      "expected_answer": "Intentional midfield fouls slow down attacks, disrupt the opponent\u2019s rhythm, and allow the defense to reset.",
+      "category": "tactical_strategy"
+    },
+    {
+      "question": "How many galaxies exist in the observable universe?",
+      "answer": " The question you've asked is not related to the context provided about sports substitutions in different leagues. The number of galaxies in the observable universe cannot be determined by the rules of any sport or league. To find out more about the number of galaxies, astronomers use telescopes and other scientific tools to observe and count them. As of now, scientists estimate that there are around 2 trillion galaxies in the observable universe.",
+      "sources": [
+        "Document 8 - Substitutions and Player Roles.txt",
+        "Document 8 - Substitutions and Player Roles.txt",
+        "Document 8 - Substitutions and Player Roles.txt"
+      ],
+      "contexts": [
+        "though the exact limit depends on the competition. In many leagues, teams may use three to five subs",
+        "though the exact limit depends on the competition. In many leagues, teams may use three to five subs",
+        "though the exact limit depends on the competition. In many leagues, teams may use three to five subs"
+      ],
+      "time": 10.811647653579712,
+      "expected_answer": "The documents only cover soccer rules, so they do not contain information about galaxies or astronomy.",
+      "category": "out_of_domain"
+    },
+    {
+      "question": "Who invented the first electric piano?",
+      "answer": " The question asks about the invention of an electric piano, and the provided context does not contain any information related to that topic. So, I cannot answer the question based on the given context.",
+      "sources": [
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 9 - Field Layout and Equipment Requirements.txt"
+      ],
+      "contexts": [
+        "t. Opponents cannot charge or block them while they are in the air or attempting to secure the ball.",
+        "t. Opponents cannot charge or block them while they are in the air or attempting to secure the ball.",
+        "ed to protect the lower legs from kicks or accidental contact. Goalkeepers wear a different-colored "
+      ],
+      "time": 6.1989586353302,
+      "expected_answer": "The documents include soccer rule information only and do not cover musical instrument history.",
+      "category": "out_of_domain"
+    },
+    {
+      "question": "What is the boiling point of liquid nitrogen?",
+      "answer": " The context provided does not mention or imply the boiling point of liquid nitrogen. It describes the markings on a soccer field, not a physical property of nitrogen.",
+      "sources": [
+        "Document 9 - Field Layout and Equipment Requirements.txt",
+        "Document 9 - Field Layout and Equipment Requirements.txt",
+        "Document 9 - Field Layout and Equipment Requirements.txt"
+      ],
+      "contexts": [
+        " at the top of the box. Additional markings include the center circle, halfway line, and corner arcs",
+        " at the top of the box. Additional markings include the center circle, halfway line, and corner arcs",
+        " at the top of the box. Additional markings include the center circle, halfway line, and corner arcs"
+      ],
+      "time": 6.92191743850708,
+      "expected_answer": "The documents do not discuss scientific measurements such as the boiling point of liquid nitrogen.",
+      "category": "out_of_domain"
+    },
+    {
+      "question": "How would the offside rule apply if soccer was played with flying drones?",
+      "answer": " The offside rule, as it currently stands, applies to players and not objects like drones. Therefore, if soccer were played with flying drones, the traditional offside rule would not apply because drones are not considered players according to the current FIFA rules. However, new rules or adaptations might be needed for such a scenario if organized play involving drones ever becomes popular.",
+      "sources": [
+        "Document 2 - Offside Rule.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt",
+        "Document 7 - Goalkeeper Rules and Handling Restrictions.txt"
+      ],
+      "contexts": [
+        "Offside Rule\nThe offside rule is one of the most misunderstood parts of soccer, especially for beginners. A player is considered offside if they are in the opponents half and closer to the opponents goal line than both the ball and the second-last defender at the moment a teammate passes the ball to them. Being in an offside position by itself is not a foul. The player is only penalized if they are actively involved in the play meaning they receive the ball, interfere with an opponent, or gain a",
+        "t. Opponents cannot charge or block them while they are in the air or attempting to secure the ball.",
+        "t. Opponents cannot charge or block them while they are in the air or attempting to secure the ball."
+      ],
+      "time": 12.224514961242676,
+      "expected_answer": "The offside rule is designed for human players; drone soccer would require new rules based on drone movement and positioning.",
+      "category": "hypothetical_scenarios"
+    },
+    {
+      "question": "If soccer had three goals instead of two, how would restarts change?",
+      "answer": " The context provided does not specify how restarts would change if soccer had three goals instead of two. However, it is reasonable to assume that the basic principles of restarts (free kicks, corner kicks, throw-ins, and goal kicks) may remain the same. The main difference might be the strategic aspect as having three goals could potentially lead to different tactics during play and possibly more aggressive attempts at scoring due to the increased opportunity for points. But without specific information about rule changes in case of three goals, this is just a speculative answer.",
+      "sources": [
+        "Document 10 - Restarts, Drop Balls, and Advantage Rule.txt",
+        "Document 1 - Match Duration and Basic Structure.txt",
+        "Document 8 - Substitutions and Player Roles.txt"
+      ],
+      "contexts": [
+        "and rewards attacking momentum. If the advantage does not materialize within a few seconds, the referee may bring play back to the original foul location.\nOther restarts include free kicks, corner kicks, throw-ins, and goal kicks, each with specific procedures. The referees role is to ensure restarts are taken correctly, opponents give the required distance, and no player gains an unfair advantage. Understanding restarts helps teams react quickly and stay organized during transitions. Good aware",
+        "rmal play. It keeps running even if the ball goes out, a player gets injured, or substitutions occur. Instead of pausing the clock, the referee keeps track of all interruptions and adds stoppage time at the end of each half. This extra time can vary depending on how long the delays were.\nA match begins with a kickoff from the center circle. Teams switch sides at halftime. The goal of the game is simple: score more goals than the opponent. A goal is counted only if the entire ball crosses the goa",
+        "Substitutions and Player Roles\nMost soccer matches allow a set number of substitutions, although the"
+      ],
+      "time": 20.149560928344727,
+      "expected_answer": "The documents do not describe three-goal soccer, but restart rules would likely need adjustments to accommodate a different field layout.",
+      "category": "hypothetical_scenarios"
+    }
+  ]
+}
