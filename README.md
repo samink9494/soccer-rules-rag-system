@@ -49,13 +49,58 @@ All documents are written in clear, human-readable language and stored locally.
 
 ---
 
-## How to Run
+## Setup and How to Run
 
-1. Make sure Python and required dependencies are installed.
-2. Place soccer rule documents inside the `my_docs/` folder.
-3. Open `student_rag_project.ipynb`.
-4. Run the notebook cells in order.
-5. Ask questions such as:
+### Requirements
+
+- Python 3.10 or newer
+- [Ollama](https://ollama.com/download) for local answer generation
+
+The 10 soccer rule text files are included in the repository root. The notebook loads them from there; no `my_docs/` folder or file moves are needed.
+
+### Install Python dependencies
+
+From the repository root, create and activate a virtual environment, then install the dependencies:
+
+```bash
+python -m venv .venv
+# macOS/Linux
+source .venv/bin/activate
+# Windows PowerShell: .venv\\Scripts\\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+### Set up Ollama
+
+Install Ollama, then download the model used by `rag_helpers.py`:
+
+```bash
+ollama pull mistral
+```
+
+Keep Ollama running locally at `http://127.0.0.1:11434`. If it is not already running, start it in a separate terminal with `ollama serve`. The notebook's LLM client uses the `mistral` model by default.
+
+### Verify setup
+
+Run the lightweight local checks from the repository root:
+
+```bash
+python verify_setup.py
+```
+
+This checks the document files and Python dependencies without connecting to Ollama. To also test the local Ollama endpoint and confirm that `mistral` is available, run:
+
+```bash
+python verify_setup.py --ollama
+```
+
+The Ollama check requires Ollama to be running locally and the `mistral` model to be pulled.
+
+### Run the notebook
+
+Open `student_rag_project.ipynb` in Jupyter and run the cells in order. The first run of the embedding model may download model files from Hugging Face.
+
+Ask questions such as:
    - *What is the offside rule?*
    - *When is a penalty kick awarded?*
    - *How many substitutions are allowed?*
